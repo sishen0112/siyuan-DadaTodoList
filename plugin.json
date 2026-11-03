@@ -1,0 +1,29 @@
+{
+  "name": "dada-todo-list-for-siyuan",
+  "author": "plover",
+  "url": "https://github.com/sishen0112/dada-todo-list-for-siyuan",
+  "version": "0.1.0",
+  "minAppVersion": "3.0.0",
+  "backends": ["all"],
+  "frontends": ["all"],
+  "displayName": {
+    "default": "Dada Todo List",
+    "zh-CN": "达达清单"
+  },
+  "description": {
+    "default": "Dada Todo List - a todo list plugin for SiYuan",
+    "zh-CN": "达达清单 —— 思源笔记任务清单插件"
+  },
+  "readme": {
+    "default": "README.md",
+    "zh-CN": "README.zh-CN.md"
+  },
+  "icon": "icon.png",
+  "preview": "preview.png",
+  "keywords": [
+    "todo",
+    "task",
+    "清单",
+    "任务"
+  ]
+}

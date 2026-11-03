@@ -1,0 +1,24 @@
+{
+  "name": "dada-todo-list-for-siyuan",
+  "version": "0.1.0",
+  "description": "Dada Todo List for SiYuan (https://b3log.org/siyuan)",
+  "author": "plover",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "DADA_DEV=1 vite build --watch",
+    "build": "vite build",
+    "link": "node ./scripts/make_dev_link.cjs"
+  },
+  "keywords": [],
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "siyuan": "^1.2.9",
+    "vite": "^6.4.4",
+    "vite-plugin-static-copy": "^2.2.0",
+    "vite-plugin-zip-pack": "^1.2.0"
+  }
+}

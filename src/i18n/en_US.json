@@ -1,0 +1,8 @@
+{
+  "topBarTitle": "Dada Todo List",
+  "hello": "Dada Todo List loaded 🎉",
+  "dialogTitle": "Dada Todo List Demo",
+  "dialogBody": "This is the scaffold demo of dada-todo-list-for-siyuan. The task features from the Obsidian version of DadaTodo will be ported here.",
+  "demoClicked": "Clicked",
+  "cmdOpenDemo": "Open Dada Todo List Demo Dialog"
+}

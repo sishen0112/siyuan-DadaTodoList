@@ -1,0 +1,9 @@
+node_modules/
+dist/
+dada-todo-list-for-siyuan/
+package.zip
+.codebuddy/
+*.log
+.DS_Store
+docs/思源插件开发与发布备忘.md
+docs/环境配置与发布备忘.md
