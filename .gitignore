@@ -1,6 +1,7 @@
 node_modules/
 dist/
 dada-todo-list-for-siyuan/
+siyuan-DadaTodoList/
 package.zip
 .codebuddy/
 *.log

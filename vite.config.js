@@ -10,13 +10,13 @@ import zipPack from 'vite-plugin-zip-pack';
 // Dada Todo · 思源笔记插件构建（库模式）
 // ----------------------------------------------------------------------------
 // 技术栈与 Obsidian 版 DadaTodo 一致：Vite + Vue 3 + 纯 JS，方便 src/core 直接移植。
-// 产物写入 dada-todo-list-for-siyuan/（目录名即插件 id，可直接整目录部署）：
+// 产物写入 siyuan-DadaTodoList/（目录名即插件 id，可直接整目录部署）：
 //   index.js（CJS，思源要求）+ index.css + plugin.json + i18n/ + README*.md
 // external：siyuan 由思源宿主提供，不打包。
 //
 // 部署：测试库插件目录软链到本产物目录
-//   /Users/plover/Documents/myLife_demo_siyuan/data/plugins/dada-todo-list-for-siyuan
-//     -> /Users/plover/Documents/Projects/DadaTodo-Siyuan/dada-todo-list-for-siyuan
+//   /Users/plover/Documents/myLife_demo_siyuan/data/plugins/siyuan-DadaTodoList
+//     -> /Users/plover/Documents/Projects/DadaTodo-Siyuan/siyuan-DadaTodoList
 // 开发循环：pnpm run dev 触发 watch 构建，思源重载插件即可生效。
 // ============================================================================
 

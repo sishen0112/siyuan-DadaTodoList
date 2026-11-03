@@ -12,7 +12,7 @@ export default class DadaTodoListPlugin extends Plugin {
 
     onload() {
         const frontend = getFrontend();
-        console.log(`dada-todo-list-for-siyuan onload, frontend: ${frontend}`);
+        console.log(`siyuan-DadaTodoList onload, frontend: ${frontend}`);
 
         // 顶栏图标按钮（仅桌面端）
         if (frontend !== "mobile") {
@@ -37,17 +37,17 @@ export default class DadaTodoListPlugin extends Plugin {
     }
 
     onLayoutReady() {
-        console.log("dada-todo-list-for-siyuan onLayoutReady");
+        console.log("siyuan-DadaTodoList onLayoutReady");
     }
 
     onunload() {
         // 卸载时清理弹窗与 Vue 应用，保持幂等
         this.closeDemoDialog();
-        console.log("dada-todo-list-for-siyuan onunload");
+        console.log("siyuan-DadaTodoList onunload");
     }
 
     uninstall() {
-        console.log("dada-todo-list-for-siyuan uninstall");
+        console.log("siyuan-DadaTodoList uninstall");
     }
 
     showDemoDialog() {

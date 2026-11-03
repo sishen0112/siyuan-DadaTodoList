@@ -10,7 +10,7 @@ Stack: Vite + Vue 3 + JavaScript (aligned with the Obsidian version for easy por
 
 ```bash
 pnpm i
-pnpm run dev     # watch build, outputs to ./dada-todo-list-for-siyuan/
+pnpm run dev     # watch build, outputs to ./siyuan-DadaTodoList/
 pnpm run build   # production build + package.zip
 pnpm run link    # symlink the build output into {siyuan workspace}/data/plugins/
 ```

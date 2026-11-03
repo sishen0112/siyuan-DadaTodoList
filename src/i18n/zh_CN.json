@@ -2,7 +2,7 @@
   "topBarTitle": "达达清单",
   "hello": "达达清单已加载 🎉",
   "dialogTitle": "达达清单 Demo",
-  "dialogBody": "这是达达清单（dada-todo-list-for-siyuan）的开发脚手架 demo。接下来将把 Obsidian 版 DadaTodo 的任务功能移植过来。",
+  "dialogBody": "这是达达清单（siyuan-DadaTodoList）的开发脚手架 demo。接下来将把 Obsidian 版 DadaTodo 的任务功能移植过来。",
   "demoClicked": "点击次数",
   "cmdOpenDemo": "打开达达清单 Demo 弹窗"
 }

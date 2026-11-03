@@ -10,7 +10,7 @@
 
 ```bash
 pnpm i
-pnpm run dev     # 监听构建，输出到 ./dada-todo-list-for-siyuan/
+pnpm run dev     # 监听构建，输出到 ./siyuan-DadaTodoList/
 pnpm run build   # 生产构建 + package.zip
 pnpm run link    # 将产物目录软链到 {思源工作空间}/data/plugins/
 ```
